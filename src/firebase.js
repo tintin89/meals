@@ -5,7 +5,7 @@ import 'firebase/functions';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBJegJe8F7HQGvBTX33jcb-2OOD2MI7QOE",
+    apiKey: process.env.API_KEY,
     authDomain: "sameals.firebaseapp.com",
     projectId: "sameals",
     storageBucket: "sameals.appspot.com",
