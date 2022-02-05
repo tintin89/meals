@@ -1,0 +1,99 @@
+.chooseSection__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;  
+}
+.chooseSection__container h1{ 
+  margin-top: 3rem;
+  color: #0050AD;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;  
+}
+.chooseSection__container h1 .MuiSvgIcon-root{
+    font-size: 2rem;
+}
+
+
+.chooseR__container{    
+    max-width: 800px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.restaurant{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0.3rem 0.3rem;   
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    display: flex;    
+    align-items: flex-end;
+}
+.chooseR__container a{
+    text-decoration: none;
+}
+.restaurant p{   
+    background-color: rgba(0, 0, 0, 0.3); 
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    z-index: 300;
+    width: 100%;
+    text-align: left;
+    padding-left: 0.2rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+.restaurant::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width: 200px;
+    position: absolute;
+}
+
+
+@media (max-width: 867px){
+    .chooseSection__container h1{
+        font-size: 1.5rem;
+    }
+    .chooseSection__container h1 .MuiSvgIcon-root{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 648px){
+    .chooseSection__container h1{
+        font-size: 1.3rem;
+    }
+    .chooseSection__container h1 .MuiSvgIcon-root{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 566px){
+    .chooseSection__container h1{
+        font-size: 1.2rem;
+        max-width: 300px;
+    }
+    .chooseSection__container h1 .MuiSvgIcon-root{
+        font-size: 1.2rem;
+    }
+    .restaurant{       
+        height: 100px;
+        width: 120px;
+    }
+    .restaurant::after{
+        height: 100px;
+        width: 120px;
+    }
+    .restaurant p{
+        font-size: 0.4rem;
+    }
+  
+}

@@ -1,0 +1,58 @@
+.whatIs{
+    padding: 1.5rem 0;
+    background-color: #00AEEF;   
+    width: 100%;       
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatIs > h3{
+    font-size: 3rem;
+    color: #ffff;
+}
+
+.whatIs section{
+    display: flex;    
+}
+
+.whatIs section p{
+    margin-top: 1rem;
+    text-align: center;
+    width: 33.33%;
+    font-size: 1.2rem;
+    color: #ffff;
+    padding:1rem;
+}
+.whatIs p:nth-child(2){
+    border-right: 2px solid #ffff;
+    border-left:2px solid #ffff;
+    
+}
+
+@media (max-width: 701px){
+    .whatIs > h3{        
+        font-size: 1.8rem;
+       
+    }
+    
+    .whatIs section{
+        display: flex;  
+        flex-flow: column;
+        align-items: center;  
+    }
+    
+    .whatIs section p{      
+        font-size:0.8rem;
+        width: 80%;   
+        border-bottom: 1px solid white;            
+    }
+   
+    .whatIs p:nth-child(2){
+        border-right:none;
+        border-left:none;       
+    }
+   
+}

@@ -1,0 +1,38 @@
+.restaurantsList{
+    padding: 0.3rem 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.noRestaurants{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.noRestaurants .MuiSvgIcon-root{
+  color: #0050AD;
+  font-size: 5rem;
+}
+.restaurantsList h1{
+    color: #0050AD;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    padding: 0 0.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 730px){
+    .restaurantsList h1{
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .restaurantsList h1 .MuiSvgIcon-root{
+        font-size: 1rem;
+    }
+    .noRestaurants .MuiSvgIcon-root{
+        font-size: 3rem;
+    }
+}

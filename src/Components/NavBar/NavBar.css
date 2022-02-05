@@ -1,0 +1,22 @@
+.containerNav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 500;
+}
+.navbar{   
+    width: 100%;
+    background-color: #0050AD;
+    height: 60px; 
+    display: flex;  
+}
+.logoSAmeals{    
+    margin-left: 1rem;    
+    color: #ffff;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

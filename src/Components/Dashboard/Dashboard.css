@@ -1,0 +1,84 @@
+.dashboard{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.operationBar{
+    position: fixed;
+    top: 3rem;
+    width: 100%;
+    height: 5rem;
+    background-color: white;    
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    
+}
+.opp__add{
+    display: flex;
+    align-items: center;
+}
+.op__logout{    
+    display: flex;    
+    align-items: center;
+}
+.op__add .MuiIconButton-label, .op__logout .MuiIconButton-label{
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #0050AD;
+    font-weight: bold;
+}
+.op__add .MuiIconButton-root:hover,.op__logout .MuiIconButton-root:hover{
+    background-color: transparent;
+}
+.op__logout .MuiIconButton-label{
+    margin-right: 1rem;
+}
+.op__add .MuiIconButton-root,.op__logout .MuiIconButton-root{
+  color: rgba(0, 0, 0, 0.1);
+}
+.dashboard table{
+    font-family: 'Poppins', sans-serif;
+    color: #686868;
+    font-weight: 600;
+     width: 95%;
+     margin-top: 2rem;
+     border-collapse: collapse;
+     margin-bottom: 1rem;
+}
+
+.dashboard table td,.dashboard table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.dashboard table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.dashboard table th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0050AD;
+  color: white;
+  text-align: center;
+}
+.dashboard table td:last-child{
+    text-align: center;
+}
+.dashboard table td{
+    font-size: 0.9rem;
+    width: 20%;
+}
+.tagsTable{
+    word-break: break-all; 
+}
+
+
+.dashboard .MuiSvgIcon-root{
+    color: #0050AD;
+}
+

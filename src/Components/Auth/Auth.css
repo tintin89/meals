@@ -1,0 +1,57 @@
+.auth{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.auth form{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.3rem;
+    background-color: #0050AD;
+    padding: 1rem;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+.formAuth__field{
+    width: 90%;    
+    margin-top: 1.5rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.formAuth__field label{
+    color: #ffff;
+}
+.formAuth__field input{
+    border:none;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 0.2rem;
+    padding: 0.5rem 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    color: #686868;
+}
+.formAuth__field input::placeholder{
+    color: lightgray;
+}
+
+
+.auth form button{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;    
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    width: 70%;
+    background-color: #00AEEF; 
+    padding: 0.4rem 0.9rem; 
+}

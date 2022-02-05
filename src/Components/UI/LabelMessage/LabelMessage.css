@@ -1,0 +1,13 @@
+.labelMessage{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+    font-size: 1.5rem;
+    margin-top: 0.3rem;
+}
+
+@media (max-width: 800px){
+    .labelMessage{
+        font-size: 1.2rem;
+    }
+}

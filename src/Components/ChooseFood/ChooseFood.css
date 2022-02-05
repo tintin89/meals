@@ -1,0 +1,46 @@
+.chooseFood { 
+ 
+    z-index: 100;
+    margin-top: 1rem;
+    padding: 10px;
+     width: 90%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    
+  }
+  
+  .chooseFood::-webkit-scrollbar {
+    display: none;
+  }
+
+  .buttonsControl{
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -6.5rem;    
+  }
+  .buttonsControl .MuiSvgIcon-root{
+    color:#ffff;
+    font-size: 2rem !important;
+    background-color: #0051add8;
+    border-radius: 100%;
+  }
+  .buttonsControl button{
+    margin: 0 0.2rem;    
+    z-index: 120;
+
+
+  }
+
+  @media (max-width: 600px){
+    .chooseFood{
+      width: 98%;
+    }
+    .buttonsControl .MuiSvgIcon-root{
+     display: none;
+    }
+  }
+  

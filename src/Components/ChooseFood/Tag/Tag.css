@@ -1,0 +1,39 @@
+.tagToChoose{
+    
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+.tagToChoose img{    
+    height: 100px;    
+    width: 100px; 
+    filter: grayscale(0.4); 
+}
+
+
+
+.spanTag{
+    text-align: center;
+   /* color: #00AEEF;      */
+   /* color: #0050AD;*/
+   color: #686868;
+    font-family: 'Poppins', sans-serif;    
+}
+.choosen{
+    color: #0050AD;
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+     .tagToChoose img{
+         height: 60px;
+         width: 60px;
+     }
+     .tagToChoose span{
+         font-size: 0.8rem;
+     }
+}

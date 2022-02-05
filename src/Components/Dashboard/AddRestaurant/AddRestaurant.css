@@ -1,0 +1,217 @@
+.addRestaurant{
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);    
+}
+.up__form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Name{
+    max-width: 350px;
+}
+.Address{
+    max-width: 390px;
+}
+.Website{
+    max-width: 300px;
+}
+.addR__field{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 1rem;
+}
+.addR__field label{
+    margin-bottom: 0.5rem;
+    color: #0050AD;
+    font-weight: bold;
+ }
+ .addR__field input{     
+     border-radius: 3px;
+     outline: none;
+     border: 1px solid lightgray;
+     padding: 0.5rem 1rem;
+     font-family: 'Poppins', sans-serif;
+     color: #686868;
+ }
+
+ .addR__field input::placeholder{
+     color: lightgray;
+ }
+ .uploadPicture{     
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     width: 100%;
+     margin-top: 1rem;
+ }
+ .uploadPicture label{       
+     width: 300px; 
+     color: #0050AD;
+     font-weight: bold;    
+ }
+ .uploadPicture input{
+     margin-top: 1rem;
+     color: #0050AD;     
+ }
+ .logo__show img{
+     margin-top: 0.5rem;
+     max-width: 150px;
+     max-height: 100px;      
+ }
+
+
+ .addR__endField{
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+     width: 100%;
+    
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ .addR__field__select{
+     display: flex;     
+ }
+ .addR__field__select label{
+     margin-right: 0.5rem;
+     color: #0050AD;
+     font-weight: bold;
+     
+ }
+ .addR__field__select select{
+     outline: none;
+     border: 1px solid lightgray;
+     padding: 0.2rem;
+ }
+
+.addR__field__switch{     
+  display: flex;
+ 
+  align-items: center;
+  color: #0050AD;
+  font-weight: bold;
+    }
+
+.addR__field__switch{   
+    margin-left: 0.4rem;
+}
+/*---------------switch--------------------------*/
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 19px;
+}
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider{
+    border-radius: 24px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgb(116, 113, 113) ;
+    -webkit-transition:  .4s;
+    transition: .4s;
+}
+
+.slider:before{
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 12px;
+    left: 2px;
+
+    bottom:4px;
+    background-color:  white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+input:checked + .slider{
+    
+    background-color:#0050AD;
+}
+
+
+input:checked + .slider:before{
+    -webkit-transform:translate(20px);
+    -ms-transform: translate(20px);
+    transform: translate(20px);
+}
+
+/*---------------switch--------------------------*/
+.addRestaurant h4{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    padding-top: 0.3rem;
+    padding-left: 1.7rem;
+    color: #0050AD;
+}
+.addR__tags{    
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.tag{   
+    margin-top: 0.3rem;   
+    width: 30%;
+    display: flex;    
+    align-items: center;    
+}
+.tag:nth-child(22){    
+    margin-right: auto;
+    margin-left: 2.3rem;    
+}
+.tag:last-child{
+    
+    margin-right: 16.8rem;
+}
+
+.tag label{
+    margin-left: 0.2rem;
+}
+.tag input{
+    cursor: pointer;
+}
+
+.addR__buttons{
+    margin-top: 1.7rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.addRestaurant button{
+    cursor: pointer;
+    width: 200px;    
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #0050AD;
+    padding: 0.4rem 0.6rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
